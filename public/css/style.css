@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #0d101a;
+    padding: 5vh 20vw;
+    min-height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.content-center {
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.image-view {
+    padding: 50px 50px 50px 50px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.margin-offset {
+    margin-bottom: -30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1.5rem;
+}
+
+.field-title {
+    font-size: 1.6rem;
+}
+
+.field-input {
+    text-align: center;
+    border-radius: 30px;
+    color: #0d101a;
+    border: 2px solid #FFF;
+    padding: 15px; 
+    width: 20rem;
+    height: 15px;
+    width: 100%; 
+    font-size: 1.4rem;  
+    margin: 0.5rem 0; 
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    padding: 10px 30px;
+    margin: 1rem auto;
+    line-height: 20px;
+    font-size: 1.4rem;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    cursor: pointer;
+    align-self: flex-start;
+    min-width: 30%;
+}
+
+.hidden {
+    display: none;
+}
+
+#alert-success {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: #198754;
+}
+
+#alert-error ul li {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1.6rem;
+    color: #ff3333;
+}
